@@ -2,30 +2,30 @@ const fashionData = [
     {
         title: "스트릿 (Street)",
         tag: "Youth & Freedom",
-        image: "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/9b/bf/8f/9bbf8ffe8cad2a452e6121c97422bbd0.jpg",
         desc: "길거리 문화(스케이트보드, 힙합 등)에서 유래한 자유롭고 힙한 스타일입니다. 개성 있는 그래픽과 오버사이즈 실루엣이 돋보입니다.",
         domestic: [
             { name: "디스이즈네버댓", desc: "서울 스트리트 씬의 글로벌 선구자로, 감각적인 로고 플레이와 빈티지한 무드를 결합합니다.", logo: "TN", url: "https://thisisneverthat.com" },
-            { name: "노매뉴얼", desc: "정해진 매뉴얼 없이 매 시즌 새로운 실험을 이어가는 쿨한 감성의 서울 브랜드입니다.", logo: "NM", url: "https://nomanual.kr" },
-            { name: "마뗑킴", desc: "시크한 디자인과 트렌디한 감각으로 MZ세대에게 압도적인 지지를 받는 브랜드입니다.", logo: "MK", url: "https://matinkim.com" }
+            { name: "노매뉴얼", desc: "정해진 매뉴얼 없이 매 시즌 새로운 실험을 이어가는 쿨한 감성의 서울 브랜드입니다.", logo: "NM", url: "https://nomanual-shop.com/" },
+            { name: "마뗑킴", desc: "시크한 디자인과 트렌디한 감각으로 MZ세대에게 압도적인 지지를 받는 브랜드입니다.", logo: "MK", url: "https://matinkim.com/" }
         ],
         global: [
             { name: "스투시", desc: "서프와 스케이트 씬에서 탄생하여 스트리트 패션의 근본이 된 아이코닉 브랜드입니다.", logo: "ST", url: "https://www.stussy.co.kr" },
             { name: "팔라스", desc: "런던 스케이트보드 문화의 정수로, 특유의 삼각형 로고와 위트 있는 디자인이 강점입니다.", logo: "PL", url: "https://www.palaceskateboards.com" },
-            { name: "슈프림", desc: "스트리트 패션 그 자체라 불리며, 강력한 하이프 문화를 형성한 뉴욕의 상징입니다.", logo: "SP", url: "https://www.supreme.com" },
-            { name: "베이프", desc: "원숭이 그래픽과 카무플라주 패턴으로 일본 하라주쿠 스타일을 정립한 브랜드입니다.", logo: "BP", url: "https://bape.com" },
+            { name: "슈프림", desc: "스트리트 패션 그 자체라 불리며, 강력한 하이프 문화를 형성한 뉴욕의 상징입니다.", logo: "SP", url: "https://shop.supreme.com/pages/shop" },
+            { name: "베이프", desc: "원숭이 그래픽과 카무플라주 패턴으로 일본 하라주쿠 스타일을 정립한 브랜드입니다.", logo: "BP", url: "https://kr.bape.com/" },
             { name: "크롬하츠", desc: "럭셔리 스트리트의 끝판왕으로, 정교한 실버 액세서리와 독보적인 락 시크 감성을 보여줍니다.", logo: "CH", url: "https://www.chromehearts.com" }
         ]
     },
     {
         title: "포멀 (Formal)",
         tag: "Timeless & Sophisticated",
-        image: "https://images.unsplash.com/photo-1594932224828-b4b057b69b6d?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/5a/3d/58/5a3d5836702ef874f910a27b929f1848.jpg",
         desc: "격식을 차린 정장 스타일입니다. 정교한 테일러링과 고급스러운 소재를 통해 신뢰감과 우아한 실루엣을 완성합니다.",
         domestic: [
             { name: "아더에러", desc: "포멀함을 현대적이고 예술적인 시선으로 재해석하여 전 세계적으로 팬덤을 보유한 크리에이티브 그룹입니다.", logo: "AD", url: "https://adererror.com" },
             { name: "블랑드누아", desc: "무채색 기반의 미니멀하고 정교한 테일러링을 선보이는 컨템포러리 디자이너 브랜드입니다.", logo: "BN", url: "https://blancdenoirs.com" },
-            { name: "로웨", desc: "담백하면서도 힘 있는 선을 활용하여 일상에서 입기 좋은 세련된 포멀 웨어를 제안합니다.", logo: "LW", url: "https://lowe.kr" }
+            { name: "로웨", desc: "담백하면서도 힘 있는 선을 활용하여 일상에서 입기 좋은 세련된 포멀 웨어를 제안합니다.", logo: "LW", url: "https://roweboutique.co.kr/" }
         ],
         global: [
             { name: "톰포드", desc: "섹시하고 관능적인 남성미를 극대화한 완벽한 핏의 럭셔리 수트를 선보입니다.", logo: "TF", url: "https://www.tomford.com" },
@@ -38,7 +38,7 @@ const fashionData = [
     {
         title: "캐주얼 (Casual)",
         tag: "Relaxed Daily Life",
-        image: "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/4a/e6/55/4ae65543029f8f3f9cbc0b0db11b5311.jpg",
         desc: "일상에서 가장 편안하고 가볍게 입을 수 있는 스타일입니다. 누구나 쉽게 시도할 수 있으며 범용성이 넓은 아이템들로 구성됩니다.",
         domestic: [
             { name: "미스치프", desc: "90년대 힙합과 캐주얼 문화를 바탕으로 여성 스트리트/캐주얼 씬의 트렌드를 이끄는 브랜드입니다.", logo: "MS", url: "https://mischief.co.kr" },
@@ -46,7 +46,6 @@ const fashionData = [
             { name: "이미스", desc: "심플한 로고와 다채로운 컬러로 일상의 즐거움을 더하는 액세서리와 캐주얼 웨어를 선보입니다.", logo: "EM", url: "https://emis.kr" }
         ],
         global: [
-            { name: "폴로 랄프 로렌", desc: "아메리칸 트래디셔널 캐주얼의 상징으로 세대와 시대를 초월하는 클래식입니다.", logo: "RL", url: "https://www.ralphlauren.co.kr" },
             { name: "리바이스", desc: "데님의 역사를 시작한 브랜드로, 전 세계 캐주얼 팬츠의 표준을 제시합니다.", logo: "LV", url: "https://www.levi.co.kr" },
             { name: "라코스테", desc: "테니스 헤리티지에서 기원한 스포티하고 깔끔한 프렌치 캐주얼의 정석입니다.", logo: "LC", url: "https://www.lacoste.com" },
             { name: "타미힐피거", desc: "미국의 고유한 레드, 화이트, 블루 컬러 조합이 돋보이는 프레피 무드의 캐주얼 브랜드입니다.", logo: "TH", url: "https://www.tommy.com" },
@@ -56,7 +55,7 @@ const fashionData = [
     {
         title: "고프코어 (Gorpcore)",
         tag: "Function & Style",
-        image: "https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/2e/89/0a/2e890a360fbd7de73eaf8502fc29c40f.jpg",
         desc: "등산복이나 캠핑복 같은 아웃도어 의류를 일상복과 믹스매치한 스타일입니다. 고성능 기능성과 세련된 미학이 공존합니다.",
         domestic: [
             { name: "산산기어", desc: "독창적인 절개 라인과 테크니컬한 디테일로 국내 고프코어 열풍의 중심에 있는 브랜드입니다.", logo: "SG", url: "https://sansangear.com" },
@@ -74,13 +73,12 @@ const fashionData = [
     {
         title: "빈티지 (Vintage)",
         tag: "Classic Heritage",
-        image: "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/1b/69/56/1b6956ccffefe3f03adafb2db79c836b.jpg",
         desc: "과거 시대의 아이템을 그대로 활용하거나, 그 시절의 감성을 현대적으로 재해석하여 입는 고풍스러운 스타일입니다.",
         domestic: [
             { name: "데니멀스", desc: "빈티지 의류에 대한 깊은 이해를 바탕으로 새로운 숨결을 불어넣는 국내 아카이브 브랜드입니다.", logo: "DN", url: "https://danimals.co.kr" }
         ],
         global: [
-            { name: "LVC", desc: "리바이스 빈티지 클로딩의 약자로, 과거 특정 연도의 제품을 완벽하게 복각하여 역사를 기록합니다.", logo: "LV", url: "https://www.levi.co.kr" },
             { name: "더 리얼 맥코이", desc: "철저한 고증을 통해 군복과 워크웨어를 당시보다 더 완벽하게 만들어내는 복각의 명가입니다.", logo: "RM", url: "https://realmccoys.co.jp" },
             { name: "캐피탈", desc: "일본의 데님 성지 코지마에서 탄생하여, 독보적인 가공 방식과 보로 스타일을 완성했습니다.", logo: "KP", url: "https://kapital.jp" },
             { name: "휴먼메이드", desc: "니고(NIGO)가 이끄는 브랜드로 빈티지 아메리카나를 위트 있게 재해석합니다.", logo: "HM", url: "https://humanmade.jp" },
@@ -90,7 +88,7 @@ const fashionData = [
     {
         title: "애슬레저 (Athleisure)",
         tag: "Sporty & Healthy",
-        image: "https://images.unsplash.com/photo-1483721310020-03333e577076?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/50/3e/ad/503eadbb33cc475386b4072a45fd2a0c.jpg",
         desc: "운동(Athletic)과 여가(Leisure)의 합성어로, 스포티한 운동복을 일상에서도 세련되게 소화하는 스타일입니다.",
         domestic: [
             { name: "젝시믹스", desc: "트렌디한 핏과 강력한 기능성으로 한국 애슬레저 시장을 선도하는 대표 브랜드입니다.", logo: "XM", url: "https://www.xexymix.com" },
@@ -108,7 +106,7 @@ const fashionData = [
     {
         title: "아메카지 (Amekaji)",
         tag: "American Casual Re-interpreted",
-        image: "https://images.unsplash.com/photo-1548126466-4470dfd3a209?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/17/00/f2/1700f26546c00dc215ecf2f1d4084137.jpg",
         desc: "'아메리칸 캐주얼'을 일본식으로 재해석한 스타일입니다. 미국의 워크웨어나 밀리터리 감성을 여유로운 핏으로 소화하는 것이 특징입니다.",
         domestic: [
             { name: "프리즘웍스", desc: "기본에 충실한 디테일과 워크웨어 무드를 합리적으로 제안하는 아메카지 입문 정석 브랜드입니다.", logo: "PW", url: "https://frizm.co.kr" },
@@ -126,7 +124,7 @@ const fashionData = [
     {
         title: "미니멀 (Minimal)",
         tag: "Simple & Modern",
-        image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/d1/c8/8e/d1c88e8b3ef93f9ddd5890905dd8d4d1.jpg",
         desc: "장식을 덜어내고 본질에 집중하는 미학입니다. 정제된 컬러와 소재감, 실루엣의 완성도가 중요합니다.",
         domestic: [
             { name: "인사일런스", desc: "군더더기 없는 디자인과 우수한 품질로 미니멀리즘의 정석을 보여주는 브랜드입니다.", logo: "IS", url: "https://insilence.co.kr" },
