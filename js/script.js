@@ -177,7 +177,7 @@ const fashionData = [
     {
         title: "히피 (Hippie)",
         tag: "Bohemian Spirit",
-        image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/c1/a3/64/c1a3642c19dd8ab6791f018763aad9af.jpg",
         desc: "자유와 평화를 지향하는 정신이 깃든 스타일입니다. 에스닉한 패턴과 자연스러운 실루엣이 평온함을 줍니다.",
         domestic: [
             { name: "서저리", desc: "패치워크, 해체주의, 리워크 데님을 활용해 현대적인 스트리트 히피 무드를 대표하는 국내 브랜드입니다.", logo: "BS", url: "https://www.sur8ery.com/shop" }
