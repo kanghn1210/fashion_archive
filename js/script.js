@@ -23,7 +23,7 @@ const fashionData = [
         image: "https://i.pinimg.com/1200x/5a/3d/58/5a3d5836702ef874f910a27b929f1848.jpg",
         desc: "격식을 차린 정장 스타일입니다. 정교한 테일러링과 고급스러운 소재를 통해 신뢰감과 우아한 실루엣을 완성합니다.",
         domestic: [
-            { name: "아더에러", desc: "포멀함을 현대적이고 예술적인 시선으로 재해석하여 전 세계적으로 팬덤을 보유한 크리에이티브 그룹입니다.", logo: "AD", url: "https://adererror.com" },
+            { name: "타임옴므", desc: "국내 최고 수준의 소재와 정교한 테일러링으로 유명한 프리미엄 포멀/컨템포러리 브랜드입니다.", logo: "AD", url: "https://www.thehandsome.com/en/" },
             { name: "블랑드누아", desc: "무채색 기반의 미니멀하고 정교한 테일러링을 선보이는 컨템포러리 디자이너 브랜드입니다.", logo: "BN", url: "https://blancdenoirs.com" },
             { name: "로웨", desc: "담백하면서도 힘 있는 선을 활용하여 일상에서 입기 좋은 세련된 포멀 웨어를 제안합니다.", logo: "LW", url: "https://roweboutique.co.kr/" }
         ],
