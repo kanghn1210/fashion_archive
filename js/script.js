@@ -184,8 +184,8 @@ const fashionData = [
         ],
         global: [
             { name: "프리 피플", desc: "히피/보헤미안 패션의 세계적인 대표 브랜드로, 히피 감성의 바이블처럼 취급됩니다.", logo: "BD", url: "https://www.freepeople.com/" },
-            { name: "에트로", desc: "페이슬리(Paisley) 패턴의 대명사이자, 하이엔드 럭셔리 히피 감성을 연출할 때 빠지지 않는 하우스 브랜드입니다.", logo: "IM", url: "https://www.etro.com/kr-ko/" }
-            { name: "이자벨 마랑", desc: "프렌치 시크와 빈티지 보헤미안을 결합한 '프렌치 히피' 스타일로 유명합니다.", logo: "IM", url: "https://intl.isabelmarant.com/ko-kr/collections/coats-woman" }
+            { name: "에트로", desc: "페이슬리(Paisley) 패턴의 대명사이자, 하이엔드 럭셔리 히피 감성을 연출할 때 빠지지 않는 하우스 브랜드입니다.", logo: "IM", url: "https://www.etro.com/kr-ko/" },
+            { name: "이자벨 마랑", desc: "프렌치 시크와 빈티지 보헤미안을 결합한 '프렌치 히피' 스타일로 유명합니다.", logo: "IM", url: "https://intl.isabelmarant.com/ko-kr/collections/coats-woman" },
             { name: "카피탈", decs: "히피, 히피 그런지, 보헤미안, 아메카지를 결합한 세계 최고의 보로(Boro) / 패치워크 브랜드입니다.", logo: "KP", url: "https://www.kapital.jp/" }
         ]
     },
