@@ -59,7 +59,7 @@ const fashionData = [
         desc: "등산복이나 캠핑복 같은 아웃도어 의류를 일상복과 믹스매치한 스타일입니다. 고성능 기능성과 세련된 미학이 공존합니다.",
         domestic: [
             { name: "산산기어", desc: "독창적인 절개 라인과 테크니컬한 디테일로 국내 고프코어 열풍의 중심에 있는 브랜드입니다.", logo: "SG", url: "https://sansangear.com" },
-            { name: "언더마이카", desc: "강렬한 실루엣과 차별화된 디자인으로 출시마다 화제를 모으는 실험적 고프코어 레이블입니다.", logo: "UM", url: "https://undermycar.co.kr" },
+            { name: "언더마이카", desc: "강렬한 실루엣과 차별화된 디자인으로 출시마다 화제를 모으는 실험적 고프코어 레이블입니다.", logo: "UM", url: "https://undermycar.co.kr" }
         ],
         global: [
             { name: "아크테릭스", desc: "극한의 상황을 견디는 완벽한 기술력과 세련된 디자인으로 고프코어의 정점에 서 있습니다.", logo: "AX", url: "https://arcteryx.co.kr" },
@@ -167,7 +167,7 @@ const fashionData = [
         desc: "첨단 소재와 미래지향적 디자인의 결합입니다. 사이버펑크적인 무드와 압도적인 기능성이 조화를 이룹니다.",
         domestic: [
             { name: "포스트 아카이브 팩션", desc: "미래지향적인 절개와 유기적인 패턴 기법을 중심으로 세계적인 주목을 받는 한국의 하이엔드 테크웨어/아방가르드 브랜드입니다.", logo: "PA", url: "https://postarchivefaction.com/ko/collections/all" },
-            { name: "엑슬림:, desc: "독창적인 소재감과 다채로운 원단 레이어드로 서울형 하이테크 스트리트 씬을 대표합니다.", logo: "XL", url: "https://xlim.link/"}
+            { name: "엑슬림", desc: "독창적인 소재감과 다채로운 원단 레이어드로 서울형 하이테크 스트리트 씬을 대표합니다.", logo: "XL", url: "https://xlim.link/"}
         ],
         global: [
             { name: "아크로님", desc: "테크웨어의 창시자 에롤슨 휴의 브랜드로 복잡한 기능을 우아하게 숨겨놓는 것이 특징입니다.", logo: "AC", url: "https://acrnm.com" },
@@ -235,10 +235,10 @@ function createBrandCard(brand) {
 }
 
 function render() {
-    fashionData.forEach(item => {
+    fashionData.forEach((item, index) => {
         const section = document.createElement('section');
         section.className = 'style-section';
-        section.id = item.title.split(' ')[0];
+        section.id = `style-section-${index}`;
 
         section.innerHTML = `
             <div class="style-visual">
@@ -251,19 +251,19 @@ function render() {
                 
                 <div class="brand-category">
                     <div class="brand-category-title">KOREA BASED</div>
-                    <div id="domestic-${item.title}" class="brand-list"></div>
+                    <div id="domestic-${index}" class="brand-list"></div>
                 </div>
                 
                 <div class="brand-category">
                     <div class="brand-category-title">GLOBAL HERITAGE</div>
-                    <div id="global-${item.title}" class="brand-list"></div>
+                    <div id="global-${index}" class="brand-list"></div>
                 </div>
             </div>
         `;
 
         mainFeed.appendChild(section);
-        const domList = document.getElementById(`domestic-${item.title}`);
-        const globList = document.getElementById(`global-${item.title}`);
+        const domList = document.getElementById(`domestic-${index}`);
+        const globList = document.getElementById(`global-${index}`);
 
         if (item.domestic && item.domestic.length > 0) {
             item.domestic.forEach(b => domList.appendChild(createBrandCard(b)));
