@@ -60,7 +60,6 @@ const fashionData = [
         domestic: [
             { name: "산산기어", desc: "독창적인 절개 라인과 테크니컬한 디테일로 국내 고프코어 열풍의 중심에 있는 브랜드입니다.", logo: "SG", url: "https://sansangear.com" },
             { name: "언더마이카", desc: "강렬한 실루엣과 차별화된 디자인으로 출시마다 화제를 모으는 실험적 고프코어 레이블입니다.", logo: "UM", url: "https://undermycar.co.kr" },
-            { name: "써저리", desc: "해체주의적 디자인을 아웃도어 무드에 접목하여 독보적인 스타일을 구축한 브랜드입니다.", logo: "SR", url: "https://surgery-apparel.com" }
         ],
         global: [
             { name: "아크테릭스", desc: "극한의 상황을 견디는 완벽한 기술력과 세련된 디자인으로 고프코어의 정점에 서 있습니다.", logo: "AX", url: "https://arcteryx.co.kr" },
@@ -76,7 +75,9 @@ const fashionData = [
         image: "https://i.pinimg.com/1200x/1b/69/56/1b6956ccffefe3f03adafb2db79c836b.jpg",
         desc: "과거 시대의 아이템을 그대로 활용하거나, 그 시절의 감성을 현대적으로 재해석하여 입는 고풍스러운 스타일입니다.",
         domestic: [
-            { name: "데니멀스", desc: "빈티지 의류에 대한 깊은 이해를 바탕으로 새로운 숨결을 불어넣는 국내 아카이브 브랜드입니다.", logo: "DN", url: "https://danimals.co.kr" }
+            { name: "이스트로그", desc: "국내 최고의 빈티지 밀리터리, 아웃도어 복각 및 아카이브 웨어 브랜드입니다.", logo: "EL", url: "https://fr8ight.co.kr/" },
+            { name: "유스", desc: "특유의 빈티지 워싱, 해체주의적 감성, 클래식 빈티지 실루엣을 모던하게 풀어내는 디자이너 브랜드입니다.", logo: "YT", url: "https://youth-lab.kr" },
+            { name: "벨리에", desc: "빈티지 의류의 특징을 모던한 라인업에 반영하는 컨템포러리/빈티지 웨어 브랜드입니다.", logo: "BL", url: "https://belier.co.kr" }
         ],
         global: [
             { name: "더 리얼 맥코이", desc: "철저한 고증을 통해 군복과 워크웨어를 당시보다 더 완벽하게 만들어내는 복각의 명가입니다.", logo: "RM", url: "https://realmccoys.co.jp" },
@@ -92,14 +93,13 @@ const fashionData = [
         desc: "운동(Athletic)과 여가(Leisure)의 합성어로, 스포티한 운동복을 일상에서도 세련되게 소화하는 스타일입니다.",
         domestic: [
             { name: "젝시믹스", desc: "트렌디한 핏과 강력한 기능성으로 한국 애슬레저 시장을 선도하는 대표 브랜드입니다.", logo: "XM", url: "https://www.xexymix.com" },
-            { name: "안다르", desc: "편안한 일상을 위한 고품질 애슬레저 웨어로 K-요가복의 대중화를 이끈 브랜드입니다.", logo: "AD", url: "https://www.andar.co.kr" },
-            { name: "뮬라웨어", desc: "피트니스 전문가들의 요구를 반영한 정교한 디자인과 소재를 지향하는 전문 애슬레저 레이블입니다.", logo: "ML", url: "https://www.mulawear.com" }
+            { name: "안다르", desc: "편안한 일상을 위한 고품질 애슬레저 웨어로 K-요가복의 대중화를 이끈 브랜드입니다.", logo: "AD", url: "https://www.andar.co.kr" }
         ],
         global: [
             { name: "룰루레몬", desc: "애슬레저의 에르메스라 불리며 요가복의 혁신과 라이프스타일 문화를 창조했습니다.", logo: "LL", url: "https://www.lululemon.co.kr" },
             { name: "나이키", desc: "압도적인 기술력과 상징적인 디자인으로 전 세계 모든 스포츠웨어의 기준이 됩니다.", logo: "NK", url: "https://www.nike.com" },
             { name: "아디다스", desc: "특유의 3선 스트라이프를 통해 스포츠와 패션의 경계를 완벽히 허문 글로벌 브랜드입니다.", logo: "AD", url: "https://www.adidas.co.kr" },
-            { name: "언더아머", desc: "강력한 기능성 압축 셔츠로 시작되어 퍼포먼스에 집중하는 모든 이들을 대변합니다.", logo: "UA", url: "https://www.underarmour.co.kr" },
+            { name: "언더아머", desc: "강력한 기능성 압축 셔츠로 시작되어 퍼포먼스에 집중하는 모든 이들을 대변합니다.", logo: "UA", url: "https://www.underarmour.co.kr/ko-kr/" },
             { name: "퓨마", desc: "유연하고 역동적인 스포츠웨어에 패션 디자이너들과의 협업으로 감각을 더했습니다.", logo: "PM", url: "https://kr.puma.com" }
         ]
     },
@@ -111,12 +111,11 @@ const fashionData = [
         domestic: [
             { name: "프리즘웍스", desc: "기본에 충실한 디테일과 워크웨어 무드를 합리적으로 제안하는 아메카지 입문 정석 브랜드입니다.", logo: "PW", url: "https://frizm.co.kr" },
             { name: "에스피오나지", desc: "밀리터리와 빈티지 아카이브에 대한 깊은 연구를 바탕으로 탄탄한 품질을 보여주는 브랜드입니다.", logo: "ES", url: "https://espionage.co.kr" },
-            { name: "아웃스탠딩", desc: "아메리칸 빈티지의 매력을 현대적으로 다듬어 누구나 입기 좋은 스타일으로 제안합니다.", logo: "OS", url: "https://outstanding.co.kr" }
+            { name: "아웃스탠딩", desc: "아메리칸 빈티지의 매력을 현대적으로 다듬어 누구나 입기 좋은 스타일으로 제안합니다.", logo: "OS", url: "https://outstanding-co.kr/" }
         ],
         global: [
             { name: "엔지니어드 가먼츠", desc: "디테일에 대한 집착과 실용적인 구조로 뉴욕 아메카지 씬의 정점으로 불립니다.", logo: "EG", url: "https://www.engineeredgarments.com" },
             { name: "비즈빔", desc: "장인정신과 최첨단 기술을 결합하여 세상에 없던 하이엔드 아메카지 가치를 창조합니다.", logo: "VV", url: "https://www.visvim.tv" },
-            { name: "더블 알엘 (RRL)", desc: "랄프 로렌의 빈티지 아카이브에 대한 집착이 낳은 완벽한 아메리카나 헤리티지 라인입니다.", logo: "RL", url: "https://www.ralphlauren.co.kr" },
             { name: "오슬로우", desc: "'천천히(Slow)'를 지향하며 고전적인 아이템을 일본 특유의 정교한 퀄리티로 완성합니다.", logo: "OR", url: "http://orslow.jp" },
             { name: "니들스", desc: "전통적인 스타일을 붕괴시키고 트랙수트와 빈티지 패턴의 결합 등 과감한 시도를 이어갑니다.", logo: "ND", url: "https://www.needles.jp" }
         ]
@@ -167,7 +166,8 @@ const fashionData = [
         image: "https://i.pinimg.com/736x/f1/5c/61/f15c616ff0400f1288e5480629ceffe9.jpg",
         desc: "첨단 소재와 미래지향적 디자인의 결합입니다. 사이버펑크적인 무드와 압도적인 기능성이 조화를 이룹니다.",
         domestic: [
-            { name: "블랙야크 BAC", desc: "아웃도어 정통 기술력을 바탕으로 현대적인 테크니컬 웨어를 실험적으로 선보입니다.", logo: "BY", url: "https://www.blackyak.com" }
+            { name: "포스트 아카이브 팩션", desc: "미래지향적인 절개와 유기적인 패턴 기법을 중심으로 세계적인 주목을 받는 한국의 하이엔드 테크웨어/아방가르드 브랜드입니다.", logo: "PA", url: "https://postarchivefaction.com/ko/collections/all" },
+            { name: "엑슬림:, desc: "독창적인 소재감과 다채로운 원단 레이어드로 서울형 하이테크 스트리트 씬을 대표합니다.", logo: "XL", url: "https://xlim.link/"}
         ],
         global: [
             { name: "아크로님", desc: "테크웨어의 창시자 에롤슨 휴의 브랜드로 복잡한 기능을 우아하게 숨겨놓는 것이 특징입니다.", logo: "AC", url: "https://acrnm.com" },
