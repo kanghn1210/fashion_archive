@@ -138,7 +138,7 @@ const fashionData = [
     {
         title: "시티보이 (City Boy)",
         tag: "Urban Leisure",
-        image: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/10/8e/e4/108ee42623123bb2a93d40d55bd3641e.jpg",
         desc: "도시적인 라이프스타일을 향유하는 소년의 이미지입니다. 오버사이즈와 단정한 레이어드가 매력입니다.",
         domestic: [
             { name: "유니폼브릿지", desc: "빈티지, 아웃도어 무드를 결합하여 누구나 입기 좋은 시티웨어의 정석을 제안합니다.", logo: "UB", url: "https://uniformbridge.com" }
@@ -151,7 +151,7 @@ const fashionData = [
     {
         title: "프레피 (Preppy)",
         tag: "Ivy League Heritage",
-        image: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/f7/eb/aa/f7ebaa15b26753a0ad305509d0d7bb4e.jpg",
         desc: "미국 아이비리그 학생들의 교복 스타일에서 유래했습니다. 지적이고 단정하며 격조 있는 캐주얼을 지향합니다.",
         domestic: [
             { name: "해지스", desc: "브리티시 감성을 한국적인 실용주의로 풀어내어 프레피 무드를 대중화했습니다.", logo: "HZ", url: "https://www.lfmall.co.kr" }
@@ -164,7 +164,7 @@ const fashionData = [
     {
         title: "테크웨어 (Techwear)",
         tag: "Future Tech",
-        image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/736x/f1/5c/61/f15c616ff0400f1288e5480629ceffe9.jpg",
         desc: "첨단 소재와 미래지향적 디자인의 결합입니다. 사이버펑크적인 무드와 압도적인 기능성이 조화를 이룹니다.",
         domestic: [
             { name: "블랙야크 BAC", desc: "아웃도어 정통 기술력을 바탕으로 현대적인 테크니컬 웨어를 실험적으로 선보입니다.", logo: "BY", url: "https://www.blackyak.com" }
@@ -180,11 +180,13 @@ const fashionData = [
         image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=800",
         desc: "자유와 평화를 지향하는 정신이 깃든 스타일입니다. 에스닉한 패턴과 자연스러운 실루엣이 평온함을 줍니다.",
         domestic: [
-            { name: "보헤미안 서울", desc: "빈티지한 무드와 고유의 자유로운 실루엣으로 확고한 아이덴티티를 가진 브랜드입니다.", logo: "BS", url: "https://bohemianseoul.com" }
+            { name: "서저리", desc: "패치워크, 해체주의, 리워크 데님을 활용해 현대적인 스트리트 히피 무드를 대표하는 국내 브랜드입니다.", logo: "BS", url: "https://www.sur8ery.com/shop" }
         ],
         global: [
-            { name: "보데 (BODE)", desc: "앤티크 원단과 수작업 자수를 통해 예술적 의류를 만드는 브랜드입니다.", logo: "BD", url: "https://www.bodeny.com" },
-            { name: "이자벨 마랑", desc: "프렌치 보헤미안 무드를 전 세계적으로 유행시킨 자유롭고 우아한 브랜드입니다.", logo: "IM", url: "https://www.isabelmarant.com" }
+            { name: "프리 피플", desc: "히피/보헤미안 패션의 세계적인 대표 브랜드로, 히피 감성의 바이블처럼 취급됩니다.", logo: "BD", url: "https://www.freepeople.com/" },
+            { name: "에트로", desc: "페이슬리(Paisley) 패턴의 대명사이자, 하이엔드 럭셔리 히피 감성을 연출할 때 빠지지 않는 하우스 브랜드입니다.", logo: "IM", url: "https://www.etro.com/kr-ko/" }
+            { name: "이자벨 마랑", decs: "프렌치 시크와 빈티지 보헤미안을 결합한 '프렌치 히피' 스타일로 유명합니다.", logo: "IM", url: "https://intl.isabelmarant.com/ko-kr/collections/coats-woman" }
+            { name: "카피탈", decs: "히피, 히피 그런지, 보헤미안, 아메카지를 결합한 세계 최고의 보로(Boro) / 패치워크 브랜드입니다.", logo: "KP", url: "https://www.kapital.jp/" }
         ]
     },
     {
