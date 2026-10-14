@@ -167,7 +167,7 @@ const fashionData = [
         desc: "첨단 소재와 미래지향적 디자인의 결합입니다. 사이버펑크적인 무드와 압도적인 기능성이 조화를 이룹니다.",
         domestic: [
             { name: "포스트 아카이브 팩션", desc: "미래지향적인 절개와 유기적인 패턴 기법을 중심으로 세계적인 주목을 받는 한국의 하이엔드 테크웨어/아방가르드 브랜드입니다.", logo: "PA", url: "https://postarchivefaction.com/ko/collections/all" },
-            { name: "엑슬림", desc: "독창적인 소재감과 다채로운 원단 레이어드로 서울형 하이테크 스트리트 씬을 대표합니다.", logo: "XL", url: "https://xlim.link/"}
+            { name: "엑슬림", desc: "독창적인 소재감과 다채로운 원단 레이어드로 서울형 하이테크 스트리트 씬을 대표합니다.", logo: "XL", url: "https://xlim.link/" }
         ],
         global: [
             { name: "아크로님", desc: "테크웨어의 창시자 에롤슨 휴의 브랜드로 복잡한 기능을 우아하게 숨겨놓는 것이 특징입니다.", logo: "AC", url: "https://acrnm.com" },
