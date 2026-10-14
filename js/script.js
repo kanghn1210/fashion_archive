@@ -192,7 +192,7 @@ const fashionData = [
     {
         title: "펑크 (Punk)",
         tag: "Raw Energy",
-        image: "https://images.unsplash.com/photo-1605812883399-52f82433d712?auto=format&fit=crop&q=80&w=800",
+        image: "https://i.pinimg.com/1200x/ec/46/25/ec4625e6f972496e94c7462e1e9d076a.jpg",
         desc: "주류 문화에 저항하는 강력한 에너지를 표현합니다. 찢어진 디테일과 가죽, 메탈 장식 등이 거친 매력을 발산합니다.",
         domestic: [
             { name: "99%IS-", desc: "디자이너 바조우가 이끄는 전 세계적인 펑크 레이블로 저항 정신을 세계에 알렸습니다.", logo: "99", url: "https://99percentis.com" }
